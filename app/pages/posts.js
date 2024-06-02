@@ -16,7 +16,7 @@ export default function Post() {
     }
   }, [id]);
 
-  if (!post) return <p>Loading...</p>;
+  if (!post) return <p>Laddar...</p>;
 
   return (
     <div>
